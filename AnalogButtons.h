@@ -40,11 +40,11 @@
  Arduino Playground library collection.
 
  */
-#if defined(ARDUINO) && ARDUINO >= 100
+//#if defined(ARDUINO) && ARDUINO >= 100
 #include "Arduino.h"
-#else
-#include "WProgram.h"
-#endif
+//#else
+//#include "WProgram.h"
+//#endif
 
 #ifndef ANALOGBUTTONS_MAX_SIZE
 #define ANALOGBUTTONS_MAX_SIZE 8
